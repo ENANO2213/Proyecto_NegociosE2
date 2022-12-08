@@ -41,7 +41,6 @@ h2{
     text-align: justify;
     margin: 1rem;
     margin-bottom: 2rem;
-    
 }
 h3{
     font-style: bold;
@@ -298,7 +297,7 @@ iframe{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(../../img/img_final.jpg);
+    background-image: url(../img/img_final.jpg);
     background-size: 100%;
     background-position: inherit;
     background-repeat: no-repeat;
