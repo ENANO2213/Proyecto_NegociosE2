@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../paginas/css/catalogo_style.css" rel="stylesheet" type="text/css">
+    <title>Catalogo</title>
+</head>
+<body>
+    <header id="header" class="header">
+            <h1>Catalogo de Servicios</h1>
+            <div class="row">
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img class="logo_carrito" src="../img/carrito-de-compras.png">
+                            <div id="carrito">
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="total" class=" button u-full-width">Total a Pagar: $
+                                    <label id="resultado">0</label></a>
+                                <a id="otra-pag" class="button u-full-width">Pagar</a>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>  
+                        </li>
+                    </ul>
+                </div>
+            </div>     
+    </header>
+    <div class="contenedor" id="contenedor">
+        <!--Servicios Destiny 2-->
+        <div>
+            <img src="../img/destiny2_competitivo_trials2.jpg">
+            <div class="informacion">
+                <p>Pruebas de Osiris</p>
+                <p>$<span class="span">500.00</span></p>
+                <button class="boton" id="bt1">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_competitivo_iron_banner.jpg">
+            <div class="informacion">
+                <p>Estandarte de Hierro</p>
+                <p>$<span class="span">600.00</span></p>
+                <button class="boton" id="bt2">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_raid_caida_rey.jpg">
+            <div class="informacion">
+                <p>Caida del Rey</p>
+                <p>$<span class="span">350.00</span></p>
+                <button class="boton" id="bt3">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_raid_juramento_dicipulo.jpg">
+            <div class="informacion">
+                <p>Juramento Discipulo</p>
+                <p>$<span class="span">500.00</span></p>
+                <button class="boton" id="bt4">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_raid_camar_cristal.jpg">
+            <div class="informacion">
+                <p>Camara de Cristal</p>
+                <p>$<span class="span">350.00</span></p>
+                <button class="boton" id="bt5">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_raid_cripta2.jpg">
+            <div class="informacion">
+                <p>Cripta</p>
+                <p>$<span class="span">250.00</span></p>
+                <button class="boton" id="bt6">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_raid_jardin.jpeg">
+            <div class="informacion">
+                <p>Jardín de la Salvación</p>
+                <p>$<span class="span">450.00</span></p>
+                <button class="boton" id="bt7">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_raid_ultimo_deseo.jpeg">
+            <div class="informacion">
+                <p>Último Deseo</p>
+                <p>$<span class="span">400.00</span></p>
+                <button class="boton" id="bt8">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_mazmorra_dualidad.jpg">
+            <div class="informacion">
+                <p>Dualidad</p>
+                <p>$<span class="span">300.00</span></p>
+                <button class="boton" id="bt9">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_mazmorra_garras_avaricia.jpg">
+            <div class="informacion">
+                <p>Garras de la Avaricia</p>
+                <p>$<span class="span">300.00</span></p>
+                <button class="boton" id="bt10">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_mazmorra_profecia.jpg">
+            <div class="informacion">
+                <p>Profecía</p>
+                <p>$<span class="span">250.00</span></p>
+                <button class="boton" id="bt11">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_mazmorra_foso_herejia.jpg">
+            <div class="informacion">
+                <p>Foso de la Herejia</p>
+                <p>$<span class="span">250.00</span></p>
+                <button class="boton" id="bt12">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_mazmorra_trono.jpg">
+            <div class="informacion">
+                <p>Trono Destrozado</p>
+                <p>$<span class="span">250.00</span></p>
+                <button class="boton" id="bt13">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="13">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/destiny2_temporada_tesoros.jpg">
+            <div class="informacion">
+                <p>Temporada Tesoros</p>
+                <p>$<span class="span">700.00</span></p>
+                <button class="boton" id="bt14">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="14">Agregar al Carrito</a>
+            </div>
+        </div>
+        <!--Servicios Apex Legends-->
+        <div>
+            <img src="../img/Apex-Legends.jpg">
+            <div class="informacion">
+                <p>Battle Royale</p>
+                <p>$<span class="span">550.00</span></p>
+                <button class="boton" id="bt15">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="15">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/apex_competitivo_arenas.jpg">
+            <div class="informacion">
+                <p>Arenas</p>
+                <p>$<span class="span">600.00</span></p>
+                <button class="boton" id="bt16">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="16">Agregar al Carrito</a>
+            </div>
+        </div>
+        <!--Servicios Gears 5-->
+        <div>
+            <img src="../img/geras5_escalada.jpg">
+            <div class="informacion">
+                <p>Escalada</p>
+                <p>$<span class="span">600.00</span></p>
+                <button class="boton" id="bt17">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="17">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/gears5_ejecucion.jpeg">
+            <div class="informacion">
+                <p>Ejecución</p>
+                <p>$<span class="span">600.00</span></p>
+                <button class="boton" id="bt18">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="18">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/gears.jpg">
+            <div class="informacion">
+                <p>Control</p>
+                <p>$<span class="span">600.00</span></p>
+                <button class="boton" id="bt19">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="19">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/gears5_fondo5.jpg">
+            <div class="informacion">
+                <p> Horda máx. dificultad</p>
+                <p>$<span class="span">450.00</span></p>
+                <button class="boton" id="bt20">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="20">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div>
+            <img src="../img/gears5_fondo2.jpg">
+            <div class="informacion">
+                <p>Escape máx. dificultad</p>
+                <p>$<span class="span">350.00</span></p>
+                <button class="boton" id="bt21">Detalles</button>
+                <a class="u-full-width button-primary button input agregar-carrito" data-id="21">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+    <script src="../paginas/js/logica_catalogo.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{ 
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: bold;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+h2{
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+header{
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    display: block;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#nav ul{
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#nav li{
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+#nav li a{
+    margin: auto;
+    padding: 10px 20px 10px 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+#nav li a:hover{
+    background-color: white;
+    color: black;
+}
+.divheader{
+    width: 100%;
+    text-align: center;
+    justify-content: justify;
+    margin: auto;
+    padding: auto;
+}
+.terminos{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.apartado{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    padding: 1rem;
+    font-size: 30px;
+    font-style: bold;
+}
+.subtitulo{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    justify-content: flex-start;
+    color: black;
+    padding: 1rem;
+    font-size: 25px;
+    font-style: bold;
+    text-decoration: underline;
+}
+.contenido{
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+    justify-content: justify;
+    align-items: center;
+    color: black;
+    padding: 1.5rem;
+    font-size: 20px;
+    font-style: normal;
+}
+.h3footer{
+    font-size: 25px;
+    font-style: bold;
+    margin: auto;
+    padding: auto;
+}
+.pfooter {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    margin-top: 1rem;
+}
+.iconos {
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.border-icon, .redes {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 2rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: all .3s ease-in;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.border-icon, .redes:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}

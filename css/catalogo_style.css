@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: Helvetica;
+}
+body {
+    background-color: #ffffff;
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+    color:#000000;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    border: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: block;
+    background: white;
+    text-align: center;
+}
+table {
+    margin-bottom: 2.5rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1; 
+}
+th:first-child, td:first-child {
+    padding-left: 0;
+}
+th:last-child, td:last-child {
+    padding-right: 0; 
+}
+ul {
+    list-style: none;
+    color:#000000;
+}
+ol {
+    list-style: decimal inside; 
+}
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 2.5rem; 
+}
+ul ul, ul ol, ol ol, ol ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%; 
+}
+li {
+    margin-bottom: 1rem; 
+}
+table, ul, ol {
+    margin-bottom: 2.5rem;
+}
+a {
+    color: #db1e1e; 
+    background-color: transparent;
+}
+a:hover {
+    color: #db0000;
+    outline: 0; 
+}
+a:active {
+    outline: 0;
+}
+button {
+    color: inherit;  
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    overflow: visible; 
+    cursor: pointer;
+}
+p{
+    color: #FFF;
+    font-style: bold;
+    font-size: large;
+}
+input {
+    line-height: normal;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.span{
+    color: #FFF;
+    font-style: bold;
+    
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+button, .button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    height: 33px;
+    padding: 0 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600px;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 0.1rem;
+}
+button:hover, .button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, 
+button:focus, .button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+}
+button.button-primary, .button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #211edb;
+    border-color: #211edb;
+}
+button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover, .button.button-primary:hover, button.button-primary:focus,
+input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"],
+.button-primary:focus,.button.button-primary:focus {
+    color: #000000;
+    background-color: #1edb47;
+    border-color: #1edb47;
+}
+.two.columns { 
+    width: 13.3333333333%; 
+}
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box; 
+}
+.u-pull-right {
+    float: right; 
+}
+.u-pull-left {
+    float: left; 
+}
+.row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+.scroll {
+    background-color: black;
+    box-shadow: .1rem .2rem .3rem #333;
+    color: #FFF;
+}
+#lista-servicios .row {
+    margin-bottom:20px;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+.scroll img {
+    filter: invert(0%);
+}           
+.scroll h1 {
+    color: #FFF;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.logo_carrito{
+    filter: invert(70%);
+    width: 45px;
+    height: auto;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 10px;
+    height: 500px;
+    margin-top: 0.5rem;
+}
+.contenedor>div {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #242323;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #000000;
+}
+.informacion{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300px;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500px;
+}
+.informacion .precio span{
+    font-size: 15px;
+    font-weight: 300px;
+}
+.informacion button{
+    background-color: #fffb01;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300px;
+    cursor: pointer;
+    color: #000000;
+}
+.informacion button:hover{
+    background-color: #cfcc00;
+}

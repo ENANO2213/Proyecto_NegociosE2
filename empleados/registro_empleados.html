@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/registro_empleados_style.css">
+        <title>Registro de Empleados</title>
+    </head>
+    <body>
+        <!--Formulario 1: Registro de Dirección de empleados-->
+        <div class="container-form sign-up">
+            <div class ="welcome-back">
+                <div class="message">
+                    <h2>Registro Empleados</h2>
+                    <p>Crea el registro del nuevo empleado</p>
+                    <button class="sign-up-btn">Ingresa puesto</button>
+                </div>
+            </div>
+            <form action="../php/ingresar_direccion.php" method ="post" class="formulario">
+                <h2 class="create-account">Dirección Empleado</h2>
+                <p class="cuenta-gratis">Llena los campos correctamente</p>
+                <input type="text" name="id_dir" placeholder="ID Dirección:" maxlength="10" required>
+                <input type="text" name="calle" placeholder="Nombre Callle:" maxlength="255" required>
+                <input type="tel" name="numC" placeholder="Número Calle:" maxlength="5" required>
+                <input type="text" name="col" placeholder="Colonia:" maxlength="255" required>
+                <input type="tel" name="cp" placeholder="Código Postal:" maxlength="6" required>
+                <input type="text" name="alc" placeholder="Alcaldia:" maxlength="100" required>
+                <input type="text" name="ciudad" placeholder="Ciudad:" maxlength="255" required>
+                <input type="text" name="pais" placeholder="Pais:" maxlength="255" required>
+                <input type="submit" name="entrar" value="Registrar">
+            </form>
+        </div>
+        <!--Formulario 2: Inicio de Registro de puesto.-->
+        <div class="container-form sign-in">
+            <form action="../php/ingresar_empleados.php" method ="post" class="formulario">
+                <h2 class="create-account">Registro de Empleados</h2>
+                <p class="cuenta-gratis">Llena los campos correctamente</p>
+                <input type="text" name="nombre" placeholder="Nombre:" maxlength="255" required>
+                <input type="text" name="appaterno" placeholder="Apellido Paterno" maxlength="255" required>
+                <input type="text" name="apmaterno" placeholder="Apellido Materno" maxlength="255" required>
+                <input type="tel" name="tel" placeholder="Tel. Celular:" maxlength="10" required>
+                <input type="text" name="email" placeholder="Correo:" maxlength="150" required>
+                <input type="password" name="passw" placeholder="Contraseña:" maxlength="20" required>
+                <input type="text" name="cod_dir" placeholder="ID dirección:" maxlength="10" required>
+                <input type="text" name="cod_p" placeholder="ID puesto:" maxlength="10" required>
+                <input type="submit" name="entrar" value="Registrar">
+            </form>
+            <div class ="welcome-back">
+                <div class="message">
+                    <h2>Dirección Empleado</h2>
+                    <p>Ingresa la dirección del empleado</p>
+                    <button class="sign-in-btn">Ingresa Dirección</button>
+                </div>
+            </div> 
+        </div>
+        <script src="../js/script2.js"></script>
+    </body>
+</html>

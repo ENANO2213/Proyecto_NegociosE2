@@ -1,0 +1,234 @@
+*{
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    justify-content: center;
+}
+h1 {
+	color: black;
+	justify-content: center;
+	text-align: center;
+	font-style: bold;
+	font-size: 40px;
+	font-style: bold;
+	margin-bottom: 2rem;
+	padding-top: 1rem;
+}
+h6{
+    color: #D20A80;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+h3.h3header{
+	color: #D20A80;
+}
+h3{
+    font-style: bold;
+    padding-bottom: 10px;
+}
+nav{
+	width: 100%;
+	height: 65px;
+	background: pink;
+	display: flex;
+}
+iframe{
+	width: 70%;
+	height: 500px;
+}
+.video{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	padding: auto;
+	margin-bottom: 4rem;
+}
+ul.menu {
+	list-style: none;
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	font-family: verdana;
+}
+ul.menu li a{
+	text-decoration: none;
+	color:white;
+	padding: 20px;
+	display: block;
+	font-size: 20px;
+}
+nav  li {
+	display: inline-block;
+	justify-content: space-between;
+}
+nav li a:hover{
+	background-color: #FA8072;
+}
+div.slider{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;/*alinea los elementos o los centra*/
+	height: auto;
+	padding: auto;
+	margin-bottom: 2rem;
+}
+.lista{
+	margin: 1rem;
+	padding: auto;
+	font-style: bold;
+	font-size: 20px;
+	text-align: justify;
+}
+.lista li{
+	padding: 0.5rem;
+}
+.slider ul{
+	display: flex;
+	width: 300%;
+	animation: cambio 10s infinite ;
+	height: auto;
+}
+.slider li{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.slider img{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	height: auto;
+}
+@keyframes cambio {
+	0%{ margin-left: 0; }
+	30%{margin-left: 0;}
+	35%{margin-left: -100%;}
+	65%{margin-left: -100%;}
+	70%{margin-left: -200%;}
+	100%{margin-left: -200%;}
+}
+.contenedor{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: inline-flex;
+	margin-bottom: 4rem;
+}
+.pt1, .pt2 {
+	width: 42.5%;
+	height: 400px;
+	margin: auto;
+	float: left;
+	text-align: center;
+	background: white;
+	margin-bottom: 2rem;
+}
+.h2pt2{
+	margin: auto;
+	padding: 1rem;
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	font-style: bold;
+}
+img.imgcatalogo{
+	width: 100%;
+	height: 390px;
+	display: block;
+	margin: auto;
+}
+footer{
+	margin: auto;
+    padding: 10px;
+    background-color: black;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.h3footer{
+	font-size: 20px;
+	font-style: bold;
+	margin-bottom: 1rem;
+}
+h5{
+	text-decoration: line-through;
+	color: darkred;
+}
+.img {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.iconos {
+    width: 99%;
+    display:inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+.border-icon {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 2rem;
+    border: solid thin black;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: all .3s ease-in;
+	background-color: gainsboro;
+}
+.border-icon:hover {
+    background-color: white;
+}
+.pfooter {
+	color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+	margin-top: 1rem;
+}
+.titulo  {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0px;
+    color: #D20A80;
+}
+.total{
+	width:49%;	
+	float: left;
+	text-align: center;
+}
+.listado{
+	width:49%;
+	float: left;
+	text-align: left;
+	display: inline; 
+}
+.imglista{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
